@@ -56,7 +56,7 @@ func testRetainCycle() {
     
     	var cat : Cat? = nil
         deinit {
-        	println("good-bye from Dog")
+        	print("good-bye from Dog")
         }
     
     }
@@ -65,7 +65,7 @@ func testRetainCycle() {
     
     	var dog : Dog? = nil
         deinit {
-       		println("good-bye from Cat")
+       		print("good-bye from Cat")
         }
     
     }
